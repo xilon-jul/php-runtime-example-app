@@ -1,0 +1,13 @@
+{
+  "name": "test/test",
+  "description": "test",
+  "license": "",
+  "keywords": [],
+  "require": {
+    "php": ">=5.5",
+    "ext-event": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
