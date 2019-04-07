@@ -5,6 +5,7 @@
   "keywords": [],
   "require": {
     "php": ">=5.5",
+    "ext-sockets": "*",
     "ext-event": "*"
   },
   "require-dev": {
