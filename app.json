@@ -1,8 +1,7 @@
 {
   "appname": "data-center",
   "skip_files": ["composer.lock", "composer.json", "*.dist", "*.sh", "Dockerfile"],
-  "php": {
-    "env": {
+  "env": {
       "FRONT_CONTROLLER_FILE": "index.php",
       "DOCUMENT_ROOT": "/app",
       "APPLICATION_ENV": "dev",
@@ -11,5 +10,4 @@
       "CERTIFICATE_EMAIL": "julien.pons@itengo.com",
       "CERTIFICATE_DOMAIN": "*.itengo.com"
     }
-  }
 }
